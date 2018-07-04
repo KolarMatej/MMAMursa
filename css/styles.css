@@ -1,0 +1,420 @@
+body {
+  background-color: #000;
+}
+
+.navbar {
+  border: 2px solid;
+  border-color: #B91200;
+  background: linear-gradient(to bottom, rgb(22,23,25) 0%,rgb(22,22,22) 18%,rgb(0,0,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  background-color: #B91200;
+  border-radius: 5px;
+}
+
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #fff;
+  background-color: #B91200;
+  border-radius: 5px;
+}
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #B91200;
+}
+.jumbotron{
+  background: url(/pictures/jumbo1.jpeg) no-repeat center center;
+  background-size: 100% 100%;
+  height: 400px;
+  border: 2px solid;
+  border-color: #B91200;
+}
+.container {
+  height: 100vh;
+}
+.jumboh1 {
+  font-family: 'Sedgwick Ave Display', cursive;
+color: #fff;
+text-align: center;
+}
+
+.jumbop {
+  color: #fff;
+  text-align: center;
+}
+
+.preActivity {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #B91200;
+  font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.aktivnost1, .aktivnost2, .aktivnost3 {
+  font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Bungee', cursive;
+line-height: 70px;
+font-size: 40px;
+color: #8D8C88;
+text-align: center;
+transition: font-size 0.35s;
+}
+
+.rowPresentation {
+  height: 450px;
+}
+
+.rowAktivnost {
+  height: 100px;
+  text-align: center;
+}
+
+.presentational1, .presentational2, .presentational3{
+  border: 2px solid;
+  border-color: #8D8C88
+}
+
+.presentational1{
+  border: 2px solid;
+  border-color: #8D8C88;
+  background: url("/pictures/mma1.jpg") no-repeat center center;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transition: all 0.35s linear;
+  /*background-position: top 100px;*/
+}
+
+.presentational1:hover{
+  border: 2px solid;
+  border-color: #fff;
+  transform: rotateY(180deg);
+  /*background: url("/pictures/mma2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-image: url("/pictures/mma2.jpg");*/
+
+}
+
+.presentational2{
+  border: 2px solid;
+  border-color: #8D8C88;
+  background: url("/pictures/bjj1.jpg") no-repeat center center;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transition: all 0.35s linear;
+}
+
+.presentational2:hover{
+  border: 2px solid;
+  border-color: #fff;
+  transform: rotateY(180deg);
+}
+
+.presentational3{
+  border: 2px solid;
+  border-color: #8D8C88;
+  background: url("/pictures/trening1.jpg") no-repeat center center;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transition: all 0.35s linear;
+}
+
+.presentational3:hover{
+  border: 2px solid;
+  border-color: #fff;
+  transform: rotateY(180deg);
+}
+
+.footer {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #B91200;
+  bottom: 0;
+}
+
+
+.css-typing p {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 1s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+.onamaimg{
+  width: 550px;
+  height: 400px;
+  border: 2px solid;
+  border-color: #B91200;
+}
+
+.aktivnostpic {
+  width: 480px;
+  height: 400px;
+}
+
+.mmarow {
+  width: 100%;
+  height: 405px;
+  border: 2px solid;
+  border-color: #B91200;
+}
+
+.aktivnostText{
+font-family: 'Patua One', cursive;
+font-family: 'Roboto Slab', serif;
+color: #fff;
+font-size: 25px;
+text-decoration: none;
+}
+
+.aktivnostNaslov {
+  font-family: 'Patua One', cursive;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  text-decoration: underline #B91200;
+  font-size: 30px;
+}
+
+.treningText {
+  font-family: 'Patua One', cursive;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.aktivnostNaslov, .aktivnostText{
+  display: inline;
+}
+
+.card-body {
+  background-color: #000;
+  border: 2px solid;
+  border-color: #B91200;
+}
+
+.btn-primary {
+  background-color: #A71F1F;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #B91200;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  background-color: #B91200;
+  color: #fff;
+  box-shadow: none;
+  border: 0.5px solid;
+  border-color: #fff;
+}
+
+.mma {
+  background: url("/pictures/mmacover2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bjj {
+  background: url("/pictures/bjjcover.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.trening {
+  background: url("/pictures/treningcover2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+.kontakt {
+  background: url("/pictures/kontakt2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.aktivnostinfo {
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.treninginfo {
+  background-color: #000;
+  border: 2px solid;
+  border-color: #B91200;
+  opacity: 0.8;
+}
+
+.z-depth-1 {
+  width: auto;
+  height: 400px;
+}
+
+.kontakticon {
+  height: 65px;
+  width: 80px;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.kontakticon:hover {
+  height: 65px;
+  width: 85px;
+  opacity: 1;
+  border-radius: 15px;
+  transform: scale(1.2);
+
+}
+
+.kontaktbox {
+  height: 65px;
+  width: 80px;
+  display: inline-block;
+}
