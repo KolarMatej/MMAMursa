@@ -309,26 +309,37 @@ transition: font-size 0.35s;
 }
 
 .aktivnostText{
-font-family: 'Patua One', cursive;
-font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
 color: #fff;
 font-size: 25px;
 text-decoration: none;
 }
 
 .aktivnostNaslov {
-  font-family: 'Patua One', cursive;
-  font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
   color: #fff;
   text-decoration: underline #B91200;
   font-size: 30px;
 }
 
 .treningText {
-  font-family: 'Patua One', cursive;
-  font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
   color: #fff;
   font-size: 25px;
+  text-decoration: none;
+}
+
+.cardNaslov {
+font-family: 'Playfair Display', serif;
+  color: #fff;
+  text-decoration: underline #B91200;
+  font-size: 25px;
+}
+
+.cardText {
+font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 20px;
   text-decoration: none;
 }
 
